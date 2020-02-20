@@ -1,0 +1,12 @@
+Crear un objeto con las clases de la universidad (3 0 4). Cada clase de la universidad debe tener el nombre del profesor, nombre de la materia y 4 notas.
+
+const universidad =  {
+	algebra: {
+		nombre: 'algebra',
+		profe: 'profe',
+		materia: 'calculo',
+		notas: [3,5,5,1]	
+	}
+}
+
+Pero deben hacerlo usando clases. Finalmente, crean un objeto "grande" que contiene las materias de la univesidad.
