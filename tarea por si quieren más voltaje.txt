@@ -1,0 +1,11 @@
+Vamos a construir un objeto que contenga 5 atributos y 5 métodos de cada uno de nosotros. 
+
+Mi nombre es gabriel. Atributos: 
+cabello: largo, lentes: true, barba: true, guapo: true, millonario: false
+métodos: 
+cantar --> ingresa una estrofa de una canción y entrega: 'ok, voy a cantar la siguiente canción: estrofa
+bailar --> ingresa el nombre de una canción y entrega: 'ok, bailando "nombre de la canción" apasionadamente con una chica guapa.
+pagar: --> ingresa el valor a pagar y la descripción y entrega 'ok, pagando 'valor' por concepto de 'descripción'
+calcular --> ingresa tres numeros y retorna el promedio aritmético de los valores ingresados
+validar--> ingresa la edad y el nombre y entrega: ok, 'nombre' es mayor de edad / error, 'nombre' es menor de edad
+
