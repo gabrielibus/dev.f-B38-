@@ -1,16 +1,18 @@
 const Maestro = require('./Maestro')
 
 class MaestroFisica extends Maestro {
-    constructor(nombre, materia, calificaciones, edad, casado) {
-        super(nombre, materia, calificaciones),
+    constructor(materia, notas, edad, casado) {
+        super(materia, notas),
         this.edad = edad,
         this.casado = casado
     }
 }
 
 
-const nuevoMaestroFisica = new MaestroFisica('Carlos', 'espanol', [9,6,2], 34,true )
-console.log(nuevoMaestroFisica)
+const nuevoMaestroFisica = new MaestroFisica('carlos', [2, 4], 18, true)
+// console.log(nuevoMaestroFisica)
+
+console.log(nuevoMaestroFisica.aprobarCurso())
 
 // Maestro --> 
 // Maestro {

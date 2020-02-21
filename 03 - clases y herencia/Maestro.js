@@ -13,13 +13,32 @@
 //    también guardando un valor numérico.
 
 
+// notas --> [9,6,6,3,7,3,6,4,3,6,3,6]
+
 class Maestro {
     constructor(materia, notas) {
         this.materia = materia,
         this.notas = notas
     }
+    promedio() {
+        let suma = 0
+        let contador = 0
+        for (let i in this.notas) {
+            suma = suma + this.notas[i]
+            contador = contador + 1
+        }
+        let resultado = suma / contador
+        return resultado
+    }
+    aprobarCurso() {
+        if (this.promedio() >= 3 ) {
+            return 'pasó el año, felicitaciones'
+        }
+        else {
+            return 'perdiste el año, ome güeva'
+        }
+    }
 }
-
 
 module.exports = Maestro
 
